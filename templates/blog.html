@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SymptomAnalyzer: AI-Powered Disease Diagnosis with Flask</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      body {
+        background-color: #f8f9fa;
+        color: #343a40;
+      }
+
+      .container {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      h2, h3 {
+        color: #007bff;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        border-bottom: 3px solid #007bff;
+        padding-bottom: 0.5rem;
+      }
+
+      h3 {
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 0.5rem;
+      }
+
+      p {
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+
+      ol, ul {
+        margin-bottom: 1.5rem;
+      }
+
+      ul {
+        list-style-type: circle;
+        padding-left: 1.5rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      .btn-custom {
+        border-radius: 25px;
+        background-color: #007bff;
+        color: white;
+        border: 1px solid #007bff;
+        padding: 10px 20px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 1rem;
+      }
+
+      .btn-custom:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-4 mt-4">
+      <h2 class="text-center">SymptomAnalyzer: AI-Powered Disease Diagnosis with Flask</h2>
+      <p>In the age of technology and information, access to accurate and timely healthcare is more critical than ever. With the increasing importance of remote healthcare solutions, we embarked on a journey to develop a symptom-based disease diagnosis web application. Leveraging Flask for the backend and a Decision Tree Classifier model, we created a user-friendly platform that can help users identify potential illnesses based on their reported symptoms.</p>
+
+      <h3>The Problem</h3>
+      <p>The project began with recognizing a common issue: people often experience symptoms and want quick answers about their health concerns. It can be challenging to differentiate between various diseases, especially when symptoms overlap. Our goal was to provide a convenient solution for users to input their symptoms and receive potential diagnoses.</p>
+
+      <h3>The Solution</h3>
+      <p>We developed a web app that allows users to enter a list of symptoms they are experiencing. The app then uses a pre-trained Decision Tree Classifier model to predict the most likely disease based on the provided symptoms. Here's how it works:</p>
+
+      <ol>
+        <li><b><strong>Symptom Input:</strong></b> Users enter their symptoms through a user-friendly interface. The web app supports a wide range of symptoms, making it versatile for different scenarios.</li>
+        <li><b><strong>Machine Learning Model:</strong></b> We trained a Decision Tree Classifier using a dataset containing symptoms and corresponding diseases. The model is capable of predicting diseases based on input symptoms.</li>
+        <li><b><strong>Prediction:</strong></b> The app uses the model to predict the most likely disease, providing users with instant information about potential health concerns.</li>
+        <li><b><strong>Additional Information:</strong></b> To enhance user experience, the app also provides additional information about the predicted disease. This includes a description of the disease, recommended precautions, medications, dietary advice, and workout tips.</li>
+      </ol>
+
+      <h3>Key Features</h3>
+      <ul>
+        <li><b><strong>User-Friendly Interface:</strong></b> The web app boasts an intuitive and easy-to-navigate interface, ensuring that users can input their symptoms without any hassle.</li>
+        <li><b><strong>Accurate Predictions:</strong></b> Leveraging machine learning, our model provides accurate disease predictions based on the symptoms provided by the user.</li>
+        <li><b><strong>Comprehensive Information:</strong></b> In addition to predictions, the app offers comprehensive information about the predicted disease, including descriptions, precautions, medications, diet recommendations, and workout tips.</li>
+        <li><b><strong>Educational Content:</strong></b> To empower users with knowledge, the app includes informative blog posts about various health topics.</li>
+      </ul>
+
+      <h3>Conclusion</h3>
+      <p>Our Symptom-Based Disease Diagnosis Web App brings the power of machine learning and healthcare information to the fingertips of users. It serves as a valuable resource for individuals looking to gain insights into their health conditions quickly and conveniently. By combining technology and healthcare, we aim to make healthcare more accessible and user-centric.</p>
+      <p>In an era where remote healthcare solutions are gaining prominence, this project represents a significant step forward in providing accessible and reliable healthcare information to the masses. We hope that this project will contribute to better health awareness and ultimately improve the well-being of individuals worldwide.</p>
+      <a href="/" class="btn btn-custom">Back</a>
+      
+      <a href="https://r.search.yahoo.com/_ylt=Awr1TeNimb9mlQQAB1a7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1725042274/RO=10/RU=https%3a%2f%2fwww.medifind.com%2fsymptom-checker/RK=2/RS=vQ8Vrn.Lt53.nJ9G.0XZQyIvE18-" class="btn btn-custom">Learn More</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
